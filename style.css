@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  font-family: "Homemade Apple", sans-serif;
+  background-color:#d77a61;
+  color: #0B3948;
+  padding: 10px;
+  text-align: center
+}
+
+h1 {
+  font-family: "Homemade Apple", sans-serif;
+  color: #546A7B;
+  text-align: center;
+  font-size: 39px;
+  margin: 10px
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-radius: 60%
+}
+p {
+  font-family:"Sometype Mono", sans-serif;
+  text-align: center
+}
+
+a {
+  font-family:"Sometype Mono", sans-serif;
+  text-align: center
+}
+
+h2 {
+  font-family: "Homemade Apple", sans-serif;
+  color: #546A7B;
+  font-size:30px;
+  margin:10px;
+}
+
+h3 {
+  font-family: "Homemade Apple", sans-serif;
+  color: #546A7B;
+  margin: 0px;
+  margin-top: 100px;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #E6AA68;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease
+}
+
+a:hover {
+  color: #7B9EA8;
+}
+
+.card {
+  background-color: #cfdee7;
+  padding: 60px;
+  width: 0 auto;
+  margin: 60px;
+  border: 16px solid;
+  border-radius: 0%;
+  text-align: center
+}
+
+.knowmore {
+  text-align: center;
+  font-size: 16px;
+  margin:0px;
+}
+
+.margintopzero {
+  margin-top:0px;
+}
+
+.marginbottom {
+  margin-bottom:60px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 300px;
+  }
+}
